@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>GPT-4 Is a Reasoning Engine - Chain of Thought - Every</title>
+      <meta name="description" content="Reason is only as good as the information we give it">
+      <meta property="og:title" content="GPT-4 Is a Reasoning Engine">
+      <meta property="og:description" content="Reason is only as good as the information we give it">
+          <meta property="og:image" content="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2544/optimized_O1M9OrGu87sRHLo5CsBoTE2vsHHWmBOZwVlbbHk4GEDZFFyKOvY-wOL8bLWir9OAr2vPWgE5NjDfebP43_PM0UT-x9QV-iGoXSOsG0EsJJyVB6Xs67qLxhk5Qzvcj28aXJFvhNCqUKoNN1veNZf4wg.jpeg">
+      <meta property="og:url" content="https://every.to/chain-of-thought/gpt-4-is-a-reasoning-engine">
+        <meta name="twitter:card" content="summary_large_image">
+      <meta property="og:type" content="article">
+        <meta property="article:published_time" content="2023-03-31">
+      <meta property="article:modified_time" content="2023-04-07">
+        <meta property="article:author" content="Dan Shipper">
+
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="/xk2a/YbODkGMed7yO/u42UoAzvp1NgwHXQjiqI183qAx4lOvDqCZU9APRKYBioUZw3FCR8DdjsOKPnFKBdQhw==" />
+    
+
+    <meta name="facebook-domain-verification" content="2p4fqv7ioqja0m0csf0gcx6k1vajjl" />
+
+      <!-- Google Analytics -->
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-1108031-37', 'auto');
+      ga('send', 'pageview');
+      </script>
+      <!-- End Google Analytics -->
+
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MF93TLQ');</script>
+      <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" media="all" href="/assets/application-efd0068b36f52f222321a40c2d748776c8bf1d212c9f334b96c18bbbb775665a.css" />
+    <script src="/packs/js/application-97b6784122765f955aa8.js"></script>
+    <script>
+      var current_user = {"id":145779,"fname":null,"lname":null,"email":"taxtechreview@gmail.com"};
+      var site_url = "https://every.to";
+      let conversion_tracker = new ConversionTracker("posts", "show")
+      conversion_tracker.init()
+      window.conversion_tracker = conversion_tracker
+    </script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MF93TLQ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    <div class="application-container posts-show ">
+      <div class="top-bar">
+        <a href="/">
+          <img class="logo" src="https://every.to/assets/every-logo-b75354dcdc13d1d15c92a2c92b5f3b02dbcaaf13d271b12afae101e7bee2c98c.svg" />
+        </a>
+        <div class="spacer"></div>
+          <div class="right-nav">
+              <div class="current-user">
+                <img src="/assets/fallback/user-cce04c6651b9d1bdfd37301d7541c98e1e35ddc0624912f1bf3682c1761e3b13.png" class="user-avatar">
+                <a href="/account"><span class="__cf_email__" data-cfemail="91e5f0e9e5f4f2f9e3f4e7f8f4e6d1f6fcf0f8fdbff2fefc">[email&#160;protected]</span></a>
+              </div>
+                <div class="nav-cta">
+                  <a href="/subscribe" class="btn small">Upgrade</a>
+                </div>
+            <a href="https://every.to/search" class="nav-search-link">
+              <img alt="Search" src="https://every.to/assets/search-26306563c4cb5cbd9bae5c1e4782f21eb3e9a1d159cb80c662a112be1b252395.svg" />
+            </a>
+            <div class="dropdown-container">
+              <div class="hamburger ">≡</div>
+              <div class="dropdown-nav">
+                <ul>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/letter">Founders&lsquo; Letter</a></li>
+                  <li><a href="/publications">Publications</a></li>
+                  <li><a href="/collections">Collections</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/cdn-cgi/l/email-protection#aac2cfc6c6c5eacfdccfd8d384dec5">Contact Us</a></li>
+                  <li><a href="https://modern-ton-234.notion.site/Every-Newsletter-Sponsorships-1e133af761964e0b97462514ab47c14f">Become a Sponsor</a></li>
+                    <li><a href="/account">Account</a></li>
+                    <li><a href="/auth/logout">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      
+<div itemscope itemtype="http://schema.org/Article" class="post">
+  <div class="post-intro">
+    <div class="post-intro-inner">
+        <div class="publication-brand">
+          <a itemprop="publisher" itemscope itemtype="http://schema.org/Organization" href="/chain-of-thought">
+              <img itemprop="logo" class="publication-logo" src="https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/59/small_Group_6.png" />
+            <span itemprop="headline" itemprop="name">Chain of Thought</span>
+          </a>
+        </div>
+      <div class="title-block">
+        <h1 itemprop="name" class="balance-text handwriting post-title short-title">
+          GPT-4 Is a <span class="hand hand-R">R</span>easoning Engine
+        </h1>
+        <p class="subtitle balance-text">Reason is only as good as the information we give it</p>
+        <div class="post-meta">
+            <p itemprop="author" itemscope itemtype="http://schema.org/Person" class="byline">by <a href="https://every.to/@danshipper" itemprop="name">Dan Shipper</a></p>
+            <p itemprop="datePublished" content="2023-03-31" class="pub-date">March 31, 2023</p>
+                <a href="/gpt-4-is-a-reasoning-engine/gpt-4-is-a-reasoning-engine/feedback?rating=amazing" data-method="post" class="like-icon">♥ <span id="like-count">236</span></a>
+
+              <div>
+                <button type="button" id="listen-to-post" class="btn small outline listen">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="fs vf vg vh">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm2.8 8.51l-3.69 2.46a.62.62 0 0 1-.96-.5V5.53a.62.62 0 0 1 .96-.51l3.7 2.46a.62.62 0 0 1 0 1.02z" fill="#292929"></path>
+                  </svg>
+                  <span>Listen</span>
+                </button>
+              </div>
+        </div>
+      </div>
+    </div>
+      <figure class="post-cover ">
+        <img itemprop="image" src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2544/optimized_O1M9OrGu87sRHLo5CsBoTE2vsHHWmBOZwVlbbHk4GEDZFFyKOvY-wOL8bLWir9OAr2vPWgE5NjDfebP43_PM0UT-x9QV-iGoXSOsG0EsJJyVB6Xs67qLxhk5Qzvcj28aXJFvhNCqUKoNN1veNZf4wg.jpeg">
+          <figcaption><a href="https://commons.wikimedia.org/wiki/File:Lowell_Mars_channels.jpg">Drawings of canals on Mars by Percivel Lowell</a></figcaption>
+      </figure>
+  </div>
+  <div itemprop="articleBody" class="post-body container">
+          <div class="post-body-content ">
+    <div class="ea-block normal">
+    <h4 class="ea-block-label">Sponsored By: Mindsera</h4>
+    <div class="ea-block-inner">
+<p>This article is brought to you by <a href="https://www.mindsera.com/" rel="noopener noreferrer" target="_blank" data-advertisement-id="368">Mindsera</a>, an AI-powered journal that gives you personalized mentorship and feedback for improving your mindset, cognitive skills, mental health, and fitness.</p>
+<p></p>
+<div class="quill-button" id="undefined" data-source='{"text":"Try the Copilot for the Mind","url":"https://www.mindsera.com/"}'><a href="https://www.mindsera.com/" data-advertisement-id="368">Try the Copilot for the Mind</a></div>
+<p></p>
+</div>
+    <div class="ea-block-footer"><a href="https://every.to/subscribe?publication=chain-of-thought">Want to hide ads? Become a subscriber</a></div>
+</div>
+<p>In 1894, a Boston-based astronomer named Percivel Lowell <a href="https://books.google.com/books?id=CSk6AQAAMAAJ&amp;pg=PA446&amp;dq=%22mars+in+1907%22&amp;hl=en&amp;sa=X&amp;ved=0CCIQ6AEwAWoVChMIq7CR8rqdyAIVxBo-Ch2WnQaP#v=onepage&amp;q=%22mars%20in%201907%22&amp;f=false" rel="noopener noreferrer" target="_blank">found intelligent life</a> on Mars.</p><p>Looking through a telescope from his private observatory he observed dark straight lines running across the Martian surface. He believed these lines to be <a href="https://en.wikipedia.org/wiki/Martian_canals" rel="noopener noreferrer" target="_blank">evidence of canals</a> built by an advanced but struggling alien civilization trying to tap water from the polar ice caps. </p><p>He spent years making intricate drawings of these lines, and his findings captured public imagination at the time. But you’ve never heard of him because he turned out to be dead wrong. </p><p>In the 1960s, NASA's Mariner missions captured high-resolution images of Mars, revealing that these "canals" were nothing more than an optical illusion caused by the distribution of craters on the planet's surface. With the low resolution available to his telescope at the time, these craters looked to Lowell like straight lines which, through a chain of reasoning, he theorized to be canals built by intelligent life.</p><p>Lowell’s story shows that there are at least two important components to thinking: reasoning and knowledge. Knowledge without reasoning is inert—you can’t do anything with it. But reasoning without knowledge can turn into compelling, confident fabrication.</p><p>Interestingly, this dichotomy isn’t limited to human cognition. It’s also a key thing that people fundamentally miss about AI:</p><p>Even though our AI models were trained by reading the whole internet, that training mostly enhances their reasoning abilities not how much they know. And so, the performance of today’s AI models is constrained by their lack of knowledge. </p><p>I saw Sam Altman speak at a small Sequoia event in SF last week, and he emphasized this exact point: GPT models are actually reasoning engines not knowledge databases. </p><p>This is crucial to understand because it predicts that advances in the usefulness of AI will come from advances in its ability to access the right knowledge at the right time—not just from advances in its reasoning powers.</p><div class="ea-block normal">
+    <h4 class="ea-block-label"></h4>
+    <div class="ea-block-inner">
+<p><a href="https://www.mindsera.com/" rel="noopener noreferrer" target="_blank" data-advertisement-id="368">Mindsera</a> structures your thinking with journaling templates based on useful frameworks and mental models, so you can make better decisions, solve complex problems, and be more productive. </p>
+<p>Our innovative AI coaching helps you to achieve your goals by making mental models actionable. You get the power of a professional coach without paying over $250 per hour. </p>
+<p><a href="https://www.mindsera.com/" rel="noopener noreferrer" target="_blank" data-advertisement-id="368">Mindsera</a> smart analysis generates an original artwork based on your writing, measures your emotional state, reflects on your personality, and gives personalized suggestions to help you improve. </p>
+<p>Build self-awareness, get clarity of thought, and succeed in an increasingly uncertain world.</p>
+<p></p>
+<div class="quill-button quill-editing" id="undefined" data-source='{"text":"Get Started","url":"https://www.mindsera.com/"}'><a href="https://www.mindsera.com/" data-advertisement-id="368">Get Started</a></div>
+<p></p>
+</div>
+    <div class="ea-block-footer"><a href="https://every.to/subscribe?publication=chain-of-thought">Want to hide ads? Become a subscriber</a></div>
+</div>
+<h2>Knowledge and reasoning in GPT models</h2><p>Here’s an example to illustrate this point. GPT-4 is the most advanced model on the market today. Its reasoning capabilities are so good that it can get a 5 on the AP Bio exam. But if I ask it who I am it says the following:</p><p></p><div class="quill-block-image" id="undefined" data-source='{"link":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_RMlISRllIOtDUscBSy5xPINOMibtTtZ3ahW3h-egvu6Sv5zGf53Tecld4XcYpqtHDPkH66yC_3g0CxPKruJ-ZcJy-s30B5QNZdbPR_moPU0p0TpgMJq9BXJtFkasZnA-TSNjO8elDM44e31NqaNVOg.png?link=true","image":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_RMlISRllIOtDUscBSy5xPINOMibtTtZ3ahW3h-egvu6Sv5zGf53Tecld4XcYpqtHDPkH66yC_3g0CxPKruJ-ZcJy-s30B5QNZdbPR_moPU0p0TpgMJq9BXJtFkasZnA-TSNjO8elDM44e31NqaNVOg.png"}'><a href="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_RMlISRllIOtDUscBSy5xPINOMibtTtZ3ahW3h-egvu6Sv5zGf53Tecld4XcYpqtHDPkH66yC_3g0CxPKruJ-ZcJy-s30B5QNZdbPR_moPU0p0TpgMJq9BXJtFkasZnA-TSNjO8elDM44e31NqaNVOg.png?link=true" target="_blank"><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_RMlISRllIOtDUscBSy5xPINOMibtTtZ3ahW3h-egvu6Sv5zGf53Tecld4XcYpqtHDPkH66yC_3g0CxPKruJ-ZcJy-s30B5QNZdbPR_moPU0p0TpgMJq9BXJtFkasZnA-TSNjO8elDM44e31NqaNVOg.png"></a></div><p></p><p>That’s close to being right except for one big problem…I’m the co-founder of a few companies, but neither of them are Superhuman or Reify. </p><p>AI critics will be quick to say that this proves GPT-4 is nothing more than a stochastic parrot, and that its results should be dismissed offhand. But they’re wrong. Its performance improves dramatically the second it has access to the right information.</p><p>For example, I have access to a version of ChatGPT that can use web searches to <em>ground</em> its answers with what it finds on the internet. </p><p>In other words, instead of using its reasoning capabilities to come up with a theoretically plausible answer, it does web research to create a knowledge base for itself. It then analyzes the collected information and distills a more accurate answer: </p><div class="quill-block-image" id="undefined" data-source='{"link":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ja1X5gRQW-xISeLCT_HQ_q8T2wBrtJu6wByK2F6PABaT6LpX3z-GeHVGAdNH6oUTXPmd8NOfFb9sAHwjdM0jBiJoh8H2a_ASM4fteCp1ZyGSpFRfbrtbJ6Wa8SPLKBJZBeBicupE443tJhnz4yDkrg.png?link=true","image":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ja1X5gRQW-xISeLCT_HQ_q8T2wBrtJu6wByK2F6PABaT6LpX3z-GeHVGAdNH6oUTXPmd8NOfFb9sAHwjdM0jBiJoh8H2a_ASM4fteCp1ZyGSpFRfbrtbJ6Wa8SPLKBJZBeBicupE443tJhnz4yDkrg.png"}'><a href="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ja1X5gRQW-xISeLCT_HQ_q8T2wBrtJu6wByK2F6PABaT6LpX3z-GeHVGAdNH6oUTXPmd8NOfFb9sAHwjdM0jBiJoh8H2a_ASM4fteCp1ZyGSpFRfbrtbJ6Wa8SPLKBJZBeBicupE443tJhnz4yDkrg.png?link=true" target="_blank"><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ja1X5gRQW-xISeLCT_HQ_q8T2wBrtJu6wByK2F6PABaT6LpX3z-GeHVGAdNH6oUTXPmd8NOfFb9sAHwjdM0jBiJoh8H2a_ASM4fteCp1ZyGSpFRfbrtbJ6Wa8SPLKBJZBeBicupE443tJhnz4yDkrg.png"></a></div><p></p><p></p><div class="quill-block-image" id="undefined" data-source='{"link":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ucsQYk_y4CPbr1mydo299SPFqQyP9U-KWPLUFIuftma4VF5y6vo0A01DGIhQEGn2satPmrzew5TODOZ68v68X44jQMu0zcinXADaIpnZLpamqnpPqMuX107G-Jr6Jm-3TBAhVmwvTq8vkl473f9GKQ.png?link=true","image":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ucsQYk_y4CPbr1mydo299SPFqQyP9U-KWPLUFIuftma4VF5y6vo0A01DGIhQEGn2satPmrzew5TODOZ68v68X44jQMu0zcinXADaIpnZLpamqnpPqMuX107G-Jr6Jm-3TBAhVmwvTq8vkl473f9GKQ.png"}'><a href="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ucsQYk_y4CPbr1mydo299SPFqQyP9U-KWPLUFIuftma4VF5y6vo0A01DGIhQEGn2satPmrzew5TODOZ68v68X44jQMu0zcinXADaIpnZLpamqnpPqMuX107G-Jr6Jm-3TBAhVmwvTq8vkl473f9GKQ.png?link=true" target="_blank"><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_ucsQYk_y4CPbr1mydo299SPFqQyP9U-KWPLUFIuftma4VF5y6vo0A01DGIhQEGn2satPmrzew5TODOZ68v68X44jQMu0zcinXADaIpnZLpamqnpPqMuX107G-Jr6Jm-3TBAhVmwvTq8vkl473f9GKQ.png"></a></div><p></p><p>Now, that’s pretty good! The underlying model is the same—but the answer improves significantly because it has the right information to reason over. </p><p>What’s going on here? GPT-4’s architecture is not public, but we can make some educated guesses based on previous models that have been released. </p><p>When GPT-4 was trained, it was fed a large portion of the available material on the internet. Training transformed that data into a statistical model that is very good at, given a string of words, knowing which words should follow from it—this is called next token prediction.</p><p>However, the kind of “knowledge” contained in this statistical model is fuzzy and inexplicit. The model doesn’t have any sort of long-term memory or way to look up the information it has seen—it only remembers what it encountered in its training set in the form of a statistical model.</p><p>When it encounters my name it uses this model to make an educated guess about who I am. It draws a conclusion that’s in the ballpark of being right, but is completely wrong in its details because it doesn’t have any explicit way to look up the answer.</p><p>But when GPT-4 is hooked up to the internet (or anything that acts like a database) it doesn’t have to rely on its fuzzy statistical understanding. Instead, it can retrieve explicit facts like, “Dan Shipper is the co-founder of Every” and use that to create its answer.</p><p>So, what does this mean for the future? I think there are at least two interesting conclusions:</p><ol>
+<li>Knowledge databases are as important to AI progress as foundational models</li>
+<li>People who organize, store, and catalog their own thinking and reading will have a leg up in an AI-driven world. They can make those resources available to the model and use it to enhance the intelligence and relevance of its responses.  </li>
+</ol><p>Let’s take these one at a time.</p><h2><strong>Knowledge databases are surprisingly important</strong></h2><p>When it comes to knowledge you want to be able to store a lot of it, and you want to be able to find the right piece of knowledge at the right time. In AI this is typically done with a vector database. </p><p>Vector databases allow you to easily index and store large amounts of information, and then quickly query for similar pieces of information to give to your model when you need to. They’re so common in AI apps that it’s likely almost every demo you’ve tried over the last few months has included a vector database for some part of their functionality.</p><p>In fact, if you want to make an investment that indexes the success of companies building in AI as a whole, one smart move would be to invest in a vector database provider, or a basket of them. (Alternatives might be to invest in OpenAI, or a basket of large cap software companies like Microsoft and Google that build AI, or chipmakers like NVIDIA that build the GPUs that AIs run on.)</p><p>Smarter investors than me seem to agree. Pinecone, the most popular vector database, just <a href="https://www.businessinsider.com/chroma-weaviate-pinecone-raise-funding-a16z-index-vector-database-ai-2023-3" rel="noopener noreferrer" target="_blank">raised money at a $700m valuation</a>. Smaller alternatives like Weaviate and Chroma aren’t far behind, and they’re also reportedly raising money at steep valuations. </p><p>Interestingly, though, most of these vector databases were originally built before the large language model (<a href="https://en.wikipedia.org/wiki/Large_language_model" rel="noopener noreferrer" target="_blank">LLM</a>) craze. Vectors are incredibly important for all sorts of previous-generation machine learning algorithms like <a href="https://every.to/napkin-math/recommendation-algorithims-are-good-sort-of" rel="noopener noreferrer" target="_blank">recommendation systems</a>. As a result, the database tooling from providers like Pinecone isn’t purpose built for large language models like ChatGPT.</p><p>We’re already seeing newer alternatives springing up that wrap some <a href="https://en.wikipedia.org/wiki/Business_logic" rel="noopener noreferrer" target="_blank">business logic</a> around the database layer to make it easier for AI developers to do common tasks. Some of these are developer libraries like Langchain and LlamaIndex. And some seem to be more fully featured developer tools like <a href="https://www.getmetal.io?utm_source=every" rel="noopener noreferrer" target="_blank">Metal</a> and <a href="https://www.baseplate.ai?utm_source=every" rel="noopener noreferrer" target="_blank">Baseplate</a>. Just like Pinecone, are also likely to raise a lot of money or already have! AI’s advancement is a raindance that calls forth capital from Patagonia vest wearing angels. </p><p>I find this very exciting because it will make it a lot easier to make AI apps. There’s a tremendous amount of boilerplate code being written to take, say, a PDF or a webpage with interesting information on it, parse it, break it into chunks, store it, and retrieve it for use in AI apps. The more that can happen with just a line or two of code, the better.  </p><p>When I talk to people about vector databases—even people who have been following AI closely—they typically say, “What’s that?” I think, over time, that will change significantly as we start to understand how important it is for these models to have access to the knowledge that they contain.</p><p>Vector databases are how information gets stored and made available to AI applications. One place that I think they’ll get a lot of valuable information from is private, personal knowledgebases.</p><h2><strong>Private repositories of knowledge are going to be very valuable</strong></h2><p>People have been saying that data is the new oil for a long time. But I do think, in this case, if you’ve spent a lot of time collecting and curating your own personal set of notes, articles, books, and highlights it’ll be the equivalent of having a topped-off oil drum in your bedroom during an OPEC crisis. </p><p>Why? It’s <a href="https://every.to/chain-of-thought/gpt-4-a-copilot-for-the-mind" rel="noopener noreferrer" target="_blank">expensive and time consuming</a> to find information that’s relevant to the things you think about. Even if you give AI access to a search engine, so it can make queries to find the right information—it’ll cost you money and time.</p><p>If, instead, you’ve spent a lifetime gathering and curating  information that’s important to you, you can customize your AI experience so it’s more useful to you right off the bat.</p><p>Apps like <a href="https://read.readwise.io/" rel="noopener noreferrer" target="_blank">Readwise Reader</a> or Pocket or Instapaper that allow you to store articles you’ve read (or articles you want to read) are going to be a gold mine to the extent that they hook up to AI tools. They’ll be extra useful because they record the articles you explicitly bookmarked and read, this will make it easier for AI tools to know which pieces of information to weight in their responses.</p><p>But the use of personal knowledge databases will get weirder and more advanced than this.</p><p>For example, Rewind is a tool that sits on your computer and records everything you see and everything you type. It’s all stored locally for privacy purposes, and you can already hook it up to ChatGPT.</p><p>In one of their demos they show a user asking, “What did I do last week?” The AI is able to summarize all of the tasks they did on their computer:</p><p></p><div class="quill-block-image" id="undefined" data-source='{"link":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_Lr4OCggcxkm3xPCVuwUC3hNStaasmoj_DDWd2L4ZdVmH3hLgBVeIyCyQ7AswxVD3YaxPSzZtk2-9Cek7gxeoMIFWfHD7lX2PRVItNVmPX3_cjpEOtHeLG3QgHvCQe8UF2J8f7fA_RjGV09judL5AwA.png?link=true","image":"https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_Lr4OCggcxkm3xPCVuwUC3hNStaasmoj_DDWd2L4ZdVmH3hLgBVeIyCyQ7AswxVD3YaxPSzZtk2-9Cek7gxeoMIFWfHD7lX2PRVItNVmPX3_cjpEOtHeLG3QgHvCQe8UF2J8f7fA_RjGV09judL5AwA.png"}'><a href="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_Lr4OCggcxkm3xPCVuwUC3hNStaasmoj_DDWd2L4ZdVmH3hLgBVeIyCyQ7AswxVD3YaxPSzZtk2-9Cek7gxeoMIFWfHD7lX2PRVItNVmPX3_cjpEOtHeLG3QgHvCQe8UF2J8f7fA_RjGV09judL5AwA.png?link=true" target="_blank"><img src="https://d24ovhgu8s7341.cloudfront.net/uploads/editor/posts/2544/optimized_Lr4OCggcxkm3xPCVuwUC3hNStaasmoj_DDWd2L4ZdVmH3hLgBVeIyCyQ7AswxVD3YaxPSzZtk2-9Cek7gxeoMIFWfHD7lX2PRVItNVmPX3_cjpEOtHeLG3QgHvCQe8UF2J8f7fA_RjGV09judL5AwA.png"></a></div><p></p><p>For my part, I’ve installed Rewind, and I’ve been playing around with building little tools to save more of what I encounter online. I made a little app I call Tend that sits open on my browser all day, and I can feed it any articles with interesting information for indexing and storage. Later, I’ll build a little ChatGPT plugin to give me access to all the information I saved with it.</p><h2>Wrapping up</h2><p>When we talk about the future of AI, we tend to focus on its output. Given a prompt, it can think through a complex problem, compose an essay, or create a new scientific breakthrough without much human involvement. </p><p>We tend to underappreciate the significance of the input—what information we feed it to produce those results. Its answers are largely dependent on the information we make available to it for analysis. It’s only as powerful as its starting point.</p><p>We don’t pay enough attention to the limits of its knowledge—how much information is locked away,  inaccessible to these systems. We also forget how expensive (both in time and in <a href="https://www.techopedia.com/definition/6580/compute" rel="noopener noreferrer" target="_blank">compute</a>) it is to crawl through information sources and find relevant facts. And finally, we underestimate the difficulty of surfacing relevant pieces of information for the model at the right time.</p><p>But solving these sorts of problems is just as fundamental as solving for the reasoning capabilities of the underlying models. I’m excited to see what people build.</p>
+  </div>
+
+  
+
+      <div id="feedback-box" class="feedback " data-post-id="2544">
+  <div class="feedback-line-1">
+    <div class="feedback-rating">
+      <h4>What did you think of this post?</h4>
+      <div class="feedback-options">
+        <a class="" data-rating="amazing" href="#">Amazing</a>
+        <a class="" data-rating="good" href="#">Good</a>
+        <a class="" data-rating="meh" href="#">Meh</a>
+        <a class="" data-rating="bad" href="#">Bad</a>
+      </div>
+    </div>
+  </div>
+  <div class="feedback-line-2">
+    <textarea class="feedback-description" placeholder="Anything else we should know? (Optional)"></textarea>
+    <button class="feedback-send btn small">Send Privately</button>
+    <div class="feedback-warning">
+      Your feedback has been saved anonymously. If you want it to be attributed to you, <a href="/login">login</a> or <a href="/subscribe?publication=chain-of-thought">sign up</a>.
+    </div>
+  </div>
+</div>
+
+      <div class="post-subscribe-pane">
+        <h3 class="balance-text">Like this?<br>Become a subscriber.</h3>
+        <a class="btn outline invert" href="/subscribe?publication=chain-of-thought">Subscribe →</a>
+        <p>Or, <a href="/">learn more</a>.</p>
+      </div>
+
+  <div class="ea-block normal">
+    <h4 class="ea-block-label">Thanks to our Sponsor: Mindsera</h4>
+    <div class="ea-block-inner"><p>Thanks to our sponsor,&nbsp;<a href="https://www.mindsera.com/" rel="noopener noreferrer" target="_blank" data-advertisement-id="368">Mindsera</a>, an AI-powered journal that gives you personalized mentorship and feedback for improving your mindset, cognitive skills, mental health, and fitness.</p><p></p><div class="quill-button" id="undefined" data-source="{&quot;text&quot;:&quot;Join the Gym for the Mind&quot;,&quot;url&quot;:&quot;https://www.mindsera.com/&quot;}">﻿<span contenteditable="false"><a href="https://www.mindsera.com/" data-advertisement-id="368">Join the Gym for the Mind</a></span>﻿</div><p></p></div>
+    <div class="ea-block-footer"><a href="https://every.to/subscribe?publication=chain-of-thought">Want to hide ads? Become a subscriber</a></div>
+</div>
+
+
+  </div>
+</div>
+
+
+  <div class="container post-recommendations">
+    <h2>Read this next:</h2>
+    <div class="container post-list post-list-vertical">
+          
+<div class="post-preview">
+  <a class="post-cover" href="/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used">
+      <img src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2432/thumbnail_Screen_Shot_2023-01-13_at_12.18.42_PM.png" />
+  </a>
+  <div class="post-preview-inner">
+      <a class="post-preview-publication" href="/chain-of-thought">
+          <img class="post-preview-publication-logo" src="https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/59/small_Group_6.png" />
+        <span class="publication-name">Chain of Thought</span>
+      </a>
+    <a href="/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used">
+      <h2 class="post-title balance-text">GPT-3 Is the Best <span class="hand hand-J">J</span>ournal I&#8217;ve Ever Used</h2>
+      <p class="post-preview-text post-preview-text-subtitle balance-text">My slow and steady progression to living out the plot of the movie &#39;Her&#39;</p>
+      <p class="post-preview-meta">
+          <span class="like-icon">♥</span> <span>554</span>
+        <span class="lock-icon"></span>
+          Jan 13, 2023
+          by <a href="https://every.to/@danshipper" itemprop="name">Dan Shipper</a>
+      </p>
+    </a>
+  </div>
+</div>
+          
+<div class="post-preview">
+  <a class="post-cover" href="/chain-of-thought/the-knee-of-the-exponential-curve">
+      <img src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2417/thumbnail_CA788540-A2CB-4DC3-AD60-F981625F1ABC.png" />
+  </a>
+  <div class="post-preview-inner">
+      <a class="post-preview-publication" href="/chain-of-thought">
+          <img class="post-preview-publication-logo" src="https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/59/small_Group_6.png" />
+        <span class="publication-name">Chain of Thought</span>
+      </a>
+    <a href="/chain-of-thought/the-knee-of-the-exponential-curve">
+      <h2 class="post-title balance-text">Here&#8217;s What I Saw at an AI <span class="hand hand-H">H</span>ackathon</h2>
+      <p class="post-preview-text post-preview-text-subtitle balance-text">AI gossip, celebrity sightings, tech trends—and some great projects</p>
+      <p class="post-preview-meta">
+          <span class="like-icon">♥</span> <span>156</span>
+        <span class="lock-icon"></span>
+          Dec 20, 2022
+          by <a href="https://every.to/@danshipper" itemprop="name">Dan Shipper</a>
+      </p>
+    </a>
+  </div>
+</div>
+          
+<div class="post-preview">
+  <a class="post-cover" href="/chain-of-thought/the-end-of-organizing">
+      <img src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2424/thumbnail_optimized_QPUHa_NqhONaLM4_0_BisJ3g4HkuW3KmnS--TROOsrHRnb-j4NI9Im3CLwfzl95pPkhBQOZBs7jeF6obQcfw1-ydX6t32OnTNP6mfw7yKzU1YUC3Y7iU1UijSO_kRXu9UjKVgc1kw4exQMyrctjb_TlNYDKllKOJFI5oeouO64wlqqKIF-59fKg1SXYMwQ.png.jpeg" />
+  </a>
+  <div class="post-preview-inner">
+      <a class="post-preview-publication" href="/chain-of-thought">
+          <img class="post-preview-publication-logo" src="https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/59/small_Group_6.png" />
+        <span class="publication-name">Chain of Thought</span>
+      </a>
+    <a href="/chain-of-thought/the-end-of-organizing">
+      <h2 class="post-title balance-text">The End of <span class="hand hand-O">O</span>rganizing</h2>
+      <p class="post-preview-text post-preview-text-subtitle balance-text">How GPT-3 will turn your notes into an *actual* second brain</p>
+      <p class="post-preview-meta">
+          <span class="like-icon">♥</span> <span>238</span>
+        <span class="lock-icon"></span>
+          Jan 6, 2023
+          by <a href="https://every.to/@danshipper" itemprop="name">Dan Shipper</a>
+      </p>
+    </a>
+  </div>
+</div>
+        
+<div class="post-preview">
+  <a class="post-cover" href="/everything/3-31-sunday-digest">
+      <img src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2541/thumbnail_Screenshot_2023-03-30_at_1.47.40_PM.png" />
+  </a>
+  <div class="post-preview-inner">
+      <a class="post-preview-publication" href="/everything">
+          <img class="post-preview-publication-logo" src="https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/5/small_EVERY_ICON-02.png" />
+        <span class="publication-name">The Sunday Digest</span>
+      </a>
+    <a href="/everything/3-31-sunday-digest">
+      <h2 class="post-title balance-text">GPT-4 is a Reasoning Engine, Tinder&#8217;s Importance, and More!</h2>
+      <p class="post-preview-text post-preview-text-subtitle balance-text">Everything we published this week. </p>
+      <p class="post-preview-meta">
+          <span class="like-icon">♥</span> <span>33</span>
+        <span class="lock-icon"></span>
+          Apr 2, 2023
+      </p>
+    </a>
+  </div>
+</div>
+        
+<div class="post-preview">
+  <a class="post-cover" href="/divinations/updating-ios-for-the-ai-era">
+      <img src="https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2548/thumbnail_DALL_E_2023-04-05_13.50.09_-_An_Impressionist_oil_painting_by_Matisse_of_a_humanoid_robot_holding_a_red_apple_in_its_hand__and_inspecting_it_.png" />
+  </a>
+  <div class="post-preview-inner">
+      <a class="post-preview-publication" href="/divinations">
+          <img class="post-preview-publication-logo" src="https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/3/small_EVERY_DIVINATIONS.png" />
+        <span class="publication-name">Divinations</span>
+      </a>
+    <a href="/divinations/updating-ios-for-the-ai-era">
+      <h2 class="post-title balance-text">Updating iOS for the AI <span class="hand hand-E">E</span>ra</h2>
+      <p class="post-preview-text post-preview-text-subtitle balance-text">Apple has two choices: adapt or die</p>
+      <p class="post-preview-meta">
+          <span class="like-icon">♥</span> <span>49</span>
+        <span class="lock-icon"></span>
+          Apr 5, 2023
+          by <a href="https://every.to/@nbaschez" itemprop="name">Nathan Baschez</a>
+      </p>
+    </a>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <div id="comments-box" class="container comments">
+  <h2>Comments</h2>
+  <div class="add">
+    <div class="image">
+        <img src="/assets/fallback/user-cce04c6651b9d1bdfd37301d7541c98e1e35ddc0624912f1bf3682c1761e3b13.png" width="40" height="40">
+    </div>
+    <div class="input">
+      <input type="hidden" id="comment-post-id" value="2544">
+      <textarea id="comment-body" placeholder="Write a comment"></textarea>
+      <button id="comment-submit" class="btn small">Post</button>
+    </div>
+  </div>
+
+  <div class="add subcomment">
+    <div class="image">
+        <img src="/assets/fallback/user-cce04c6651b9d1bdfd37301d7541c98e1e35ddc0624912f1bf3682c1761e3b13.png" width="40" height="40">
+    </div>
+    <div class="input">
+      <input type="hidden" id="subcomment-comment-id">
+      <textarea id="subcomment-body" placeholder="Write a comment"></textarea>
+      <button id="subcomment-submit" class="btn small">Post</button>
+    </div>
+  </div>
+
+  <div class="comment-warning">
+    You need to <a href="/login">login</a> before you can comment.<br>
+    Don't have an account? <a href="/subscribe?publication=chain-of-thought">Sign up!</a>
+  </div>
+
+  <div class="list">
+      <div class="comment-wrapper">
+        <div id="comment-777" class="comment">
+  <input type="hidden" class="root-comment-id" value="777">
+  <input type="hidden" class="comment-id" value="777">
+  <input type="hidden" class="comment-username" value="@goodeddy66">
+  <div class="image">
+      <a href="/@goodeddy66">
+        <img src="/assets/fallback/user-cce04c6651b9d1bdfd37301d7541c98e1e35ddc0624912f1bf3682c1761e3b13.png" width="40" height="40">
+      </a>
+  </div>
+  <div class="content">
+    <div class="meta">
+      <span class="name">eddy jingzi</span>
+      <span class="date"><a href="#">6 days ago</a></span>
+    </div>
+    <div class="body">
+      <p></p>
+    </div>
+    <div class="meta">
+      <span class="likes-link">
+    <a href="#" data-action="like">♡ <span class="count">0</span></a>
+</span>
+      &middot;
+      <span class="reply-link"><a href="#">Reply</a></span>
+    </div>
+    <div class="subcomment-box"></div>
+  </div>
+</div>
+
+        <div class="sub-comments">
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div id="subscribe-popup" class="out-of-sight">
+  <button id="subscribe-popup-button">&#x2715</button>
+  <h2 class="balance-text">Understand AI</h2>
+  <p class="balance-text">Get one actionable essay a day on AI, tech, and personal development</p>
+  <a class="btn" href="/subscribe?publication=chain-of-thought">Subscribe</a>
+  <p>Already a subscriber? <a href="/login">Login</a></p>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if ($("#comments-box")) {
+      CommentsBox.init()
+    }
+
+    let user_status = null
+      user_status = "free"
+    PaywallManager.init(2544, "everyone", false, user_status)
+
+    if (!current_user) {
+      // Update like count (for cached articles)
+      let pub_slug = 'chain-of-thought';
+      let post_slug = 'gpt-4-is-a-reasoning-engine';
+
+      ajax.get(Routes.post_like_count_path(pub_slug, post_slug))
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+        let updated_like_count = data.like_count;
+        let current_like_count = Number($('#like-count').innerText)
+        if (updated_like_count > current_like_count) {
+          let counterInterval = setInterval(()=> {
+            if (updated_like_count > current_like_count) {
+              current_like_count += 1;
+              $('#like-count').innerText = current_like_count;
+            } else {
+              clearInterval(counterInterval);
+            }
+          }, 50);
+        }
+      });
+
+      subscribe_popup_scroller = () => {
+        y = window.scrollY
+        if (y > 50) {
+          $("#subscribe-popup").classList.remove("out-of-sight")
+        }
+      }
+
+      subscribe_popup_initialize_link = (selector, section) => {
+        $$(selector + " a").forEach(node => {
+          let url = new URL(node.href)
+          if (url.pathname == "/subscribe") {
+            url.searchParams.set("ref", "subscribe-popup")
+            node.href = url.href
+          }
+        })
+      }
+
+      subscribe_popup_initialize_link(".top-bar", "header")
+      subscribe_popup_initialize_link(".post", "post-body")
+      subscribe_popup_initialize_link(".post-subscribe-pane", "post-subscribe-pane")
+      subscribe_popup_initialize_link(".post-recommendations", "post-recommendations")
+      subscribe_popup_initialize_link("#subscribe-popup", "subscribe-popup")
+
+      if (Cookie.get("seen_subscribe_popup_conversion") != "true") {
+        $("#subscribe-popup-button").onclick = function() {
+          $("#subscribe-popup").classList.add("out-of-sight")
+          document.removeEventListener("scroll", subscribe_popup_scroller)
+          Cookie.set("seen_subscribe_popup_conversion", "true", 365)
+        }
+
+        document.addEventListener("scroll", subscribe_popup_scroller)
+      }
+    }
+  })
+
+  let properties = { post_id: 2544 }
+  let advertisement_link = $("a[data-advertisement-id]")
+
+  if (advertisement_link != null) {
+    properties["advertisement_id"] = Number(advertisement_link.getAttribute("data-advertisement-id"))
+  }
+
+  EVERY.track("Post viewed", properties)
+
+  $$(".post a").forEach(node => {
+    node.addEventListener("click", e => {
+      let link = null
+      let properties = {
+        post_id: 2544
+      }
+
+      if (e.target.tagName == "A") {
+        link = e.target
+      } else {
+        if (e.target.parents("a").length == undefined) {
+          link = e.target.parents("a")
+        }
+      }
+
+      if (link != null) {
+        properties["url"] = link.href
+        if (Number(link.getAttribute("data-advertisement-id")) > 0) {
+          properties["advertisement_id"] = Number(link.getAttribute("data-advertisement-id"))
+        }
+
+        EVERY.track("Post clicked", properties)
+      }
+    })
+  })
+
+  if (current_user) {
+    ajax.post(Routes.track_visited_users_path({ post_id: 2544 }))
+  }
+</script>
+
+
+        <footer>
+          <p>
+            <a href="/cdn-cgi/l/email-protection#157d7079797a55706370676c3b617a">Contact Us</a> &middot;
+            <a href="https://modern-ton-234.notion.site/Every-Newsletter-Sponsorships-1e133af761964e0b97462514ab47c14f">Become a Sponsor</a> &middot;
+            <a href="https://every.to/search">Search</a> &middot;
+            <a href="/legal">Terms</a>
+          </p>
+          <p>&copy;2023 Every Media, Inc</p>
+        </footer>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    </script>
+
+  </body>
+</html>
